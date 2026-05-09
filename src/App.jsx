@@ -195,7 +195,7 @@ const App = () => {
           <img
             src="/logos/White_Text_Mission_Green_Earth_logo-01.png"
             alt="Mission Green Earth"
-            className="h-[80px] md:h-[120px] w-auto object-contain"
+            className="h-[70px] md:h-[120px] w-auto object-cover"
           />
 
           {/* Desktop Nav */}
@@ -236,13 +236,13 @@ const App = () => {
       <main className="story-scroll-container">
         <section className="flow-section bg-[#9AD872] px-6 md:px-gutter">
           <div className="max-w-container-max w-full grid grid-cols-1 md:grid-cols-2 gap-xl items-center pt-20 md:pt-0">
-            <div className="flex flex-col gap-md text-left z-10">
+            <div className="flex flex-col gap-md text-center md:text-left items-center md:items-start z-10 w-full">
               <span className="font-label-sm text-[10px] md:text-label-sm uppercase tracking-[0.3em] text-primary/80 font-bold">
                 The sustainability renaissance
               </span>
               <h1
                 ref={headlineRef}
-                className="font-display text-[32px] md:text-display uppercase text-primary tracking-tighter leading-[0.9] h-[140px] md:h-[240px]"
+                className="font-display text-[28px] sm:text-4xl md:text-display uppercase text-primary tracking-tighter leading-[1.1] md:leading-[0.9] h-[100px] sm:h-[120px] md:h-[240px] mb-2 md:mb-6 flex items-center md:items-start justify-center md:justify-start"
               >
               </h1>
               <p
@@ -267,16 +267,16 @@ const App = () => {
         <section id="about" className="flow-section">
           <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDWVEC-0sWyLfqMfw0_dMh-MvceMhMd797OJ-cLhThjgGXGK4J-ZYsQpNAmwfznQmuv_rMxfwMZncS4JGb4hAJE_LKAVNzWa5XUGzVEOdkwd2BTtt0Vr4lE-2W_YrSI6jhAw3H4hhb4Unwi_OUaEWtH4rIFBW4eF9YPcREZbYqtkxFXR6sRwjc4XBGGTOs2LEKQn9Vj4NNUlPyXA_56pLf2O2ksOYmy2dDhbIIGl_wIuikf1WM0ZHKy2FDLDKn1k4lclmBmg3Nq3oI')" }}></div>
           <div className="absolute inset-0 bg-primary-container/20 backdrop-blur-sm"></div>
-          <div className="relative z-10 w-full max-w-container-max px-gutter">
-            <div className="flex flex-col gap-xl">
+          <div className="relative z-10 w-full max-w-container-max px-6 md:px-gutter">
+            <div className="flex flex-col gap-lg md:gap-xl">
               <div className="max-w-3xl">
-                <h2 className="font-display text-h1 uppercase text-white tracking-tight border-l-4 border-secondary-fixed pl-md mb-md">
-                  MissionGreenEarth: Where Shared Passion Shapes the Future of Sustainability
+                <h2 className="font-display text-3xl md:text-h1 uppercase text-white tracking-tight border-l-4 border-secondary-fixed pl-4 md:pl-md mb-6 md:mb-md">
+                  Mission Green Earth: Where Shared Passion Shapes the Future of Sustainability
                 </h2>
-                <div className="flex flex-col gap-md text-on-primary-container text-white text-body-lg">
+                <div className="flex flex-col gap-6 md:gap-md text-white text-base md:text-body-lg">
                   <p>Global warming, driven by the increase in greenhouse gases (GHGs) is having profound effects on the planet's climate impacting adversely to the sustainable existence of the Flora and Fauna in future. Sustainability is crucial for several key reasons, both for the environment and for the long-term well-being of society and the global economy.</p>
-                  <p>MissionGreenEarth is committed in providing End to End solutions helping all entities involved in the cause i.e. on one hand helping the project owners to get incentivize through Carbon Credits and on the other, helping organizations to meet their Net Zero and SDG goals.</p>
-                  <p className="font-bold text-secondary-fixed italic">Equipped with seasoned and agile workforce, powered with cutting edge information and communications technologies, MissionGreenEarth becomes an ideal Co-pilot in this novel calling.</p>
+                  <p>Mission Green Earth is committed in providing End to End solutions helping all entities involved in the cause i.e. on one hand helping the project owners to get incentivize through Carbon Credits and on the other, helping organizations to meet their Net Zero and SDG goals.</p>
+                  <p className="font-bold text-secondary-fixed italic text-lg md:text-xl">Equipped with seasoned and agile workforce, powered with cutting edge information and communications technologies, Mission Green Earth becomes an ideal Co-pilot in this novel calling.</p>
                 </div>
               </div>
             </div>
@@ -285,15 +285,15 @@ const App = () => {
 
         <section id="services" className="flow-section bg-[#f0fdf4]">
           <div className="grid grid-cols-1 md:grid-cols-2 w-full h-full">
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden min-h-[300px] md:min-h-full">
               <img
                 alt="Sustainability Trees and Plants"
-                className="w-full h-full object-cover hover:scale-105 transition-all duration-700"
+                className="w-full h-full object-cover hover:scale-105 transition-all duration-700 absolute inset-0"
                 src="/sustainability_plants_trees.png"
               />
             </div>
-            <div className="flex flex-col justify-center px-gutter md:px-xl bg-surface-container-low">
-              <h2 className="font-display text-h1 uppercase text-primary mb-lg tracking-tighter">Carbon Credit Parameters</h2>
+            <div className="flex flex-col justify-center px-6 md:px-xl py-12 md:py-0 bg-surface-container-low">
+              <h2 className="font-display text-4xl md:text-h1 uppercase text-primary mb-8 md:mb-lg tracking-tighter">Carbon Credit Parameters</h2>
               <div className="flex flex-col gap-md">
                 <div className="border-l-2 border-primary pl-md">
                   <h4 className="font-bold text-lg uppercase">1. Equivalent CO2 (tCO2e)</h4>
@@ -315,62 +315,63 @@ const App = () => {
         <section className="flow-section">
           <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/green_leaves_canopy.png')" }}></div>
           <div className="absolute inset-0 bg-primary/90 mix-blend-multiply"></div>
-          <div className="relative z-10 w-full max-w-container-max px-gutter">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-lg text-white">
-              <div className="flex flex-col gap-base">
-                <h3 className="font-display text-h2 text-secondary-fixed uppercase leading-tight">Verified Sustainability Assets</h3>
-                <p className="text-body-md opacity-80">Undergoes structured validation aligned with internationally recognized climate standards.</p>
+          <div className="relative z-10 w-full max-w-container-max px-6 md:px-gutter">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-lg text-white">
+              <div className="flex flex-col gap-4">
+                <h3 className="font-display text-2xl md:text-h2 text-secondary-fixed uppercase leading-tight">Verified Sustainability Assets</h3>
+                <p className="text-sm md:text-body-md opacity-80">Undergoes structured validation aligned with internationally recognized climate standards.</p>
               </div>
-              <div className="flex flex-col gap-base">
-                <h3 className="font-display text-h2 text-secondary-fixed uppercase leading-tight">Transparent Marketplace</h3>
-                <p className="text-body-md opacity-80">Blockchain-powered infrastructure for immutable tracking of credit ownership and impact.</p>
+              <div className="flex flex-col gap-4">
+                <h3 className="font-display text-2xl md:text-h2 text-secondary-fixed uppercase leading-tight">Environmental Accountability</h3>
+                <p className="text-sm md:text-body-md opacity-80">Ensures that environmental claims are backed by rigorous scientific evidence and data.</p>
               </div>
-              <div className="flex flex-col gap-base">
-                <h3 className="font-display text-h2 text-secondary-fixed uppercase leading-tight">Global Net-Zero Goals</h3>
-                <p className="text-body-md opacity-80">Bridging enterprises and innovators to accelerate responsible climate action.</p>
+              <div className="flex flex-col gap-4">
+                <h3 className="font-display text-2xl md:text-h2 text-secondary-fixed uppercase leading-tight">Tangible Climate Impact</h3>
+                <p className="text-sm md:text-body-md opacity-80">Focuses on initiatives that create measurable, long-term benefits for ecosystems worldwide.</p>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="flow-section bg-primary-container">
-          <div className="max-w-container-max w-full px-gutter flex flex-col items-center">
-            <div className="w-full border-t border-white/10 pt-xl flex flex-col items-center">
-              <h2 className="font-display text-[80px] md:text-[120px] leading-none uppercase text-white tracking-tighter text-center mb-xl">Share your Net Zero<br />journey with us!</h2>
-              <p className="font-body-lg text-body-lg text-on-primary-container mb-lg">Let us be your Net Zero Sarthi</p>
-
+        <section className="flow-section bg-primary-container pb-20">
+          <div className="max-w-container-max w-full px-6 md:px-gutter flex flex-col items-center">
+            <div className="w-full border-t border-white/10 pt-10 md:pt-xl flex flex-col items-center text-center">
+              <h2 className="font-display text-4xl md:text-[100px] lg:text-[120px] leading-tight md:leading-none uppercase text-white tracking-tighter mb-8 md:mb-xl">
+                Share your Net Zero<br className="hidden md:block" /> journey with us!
+              </h2>
+              <p className="font-body-lg text-lg md:text-body-lg text-on-primary-container/80 mb-6 md:mb-lg">Let us be your Net Zero Sarthi</p>
             </div>
           </div>
         </section>
 
-        <section id="enquiry" className="flow-section bg-surface-container-low py-xl overflow-y-auto">
-          <div className="mx-auto max-w-7xl px-6 md:px-gutter w-full py-20 md:py-0">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-xl items-center">
+        <section id="enquiry" className="flow-section bg-surface-container-low py-20 lg:py-xl overflow-y-auto">
+          <div className="mx-auto max-w-7xl px-6 md:px-gutter w-full">
+            <div className="flex flex-col lg:flex-row gap-16 lg:gap-xl items-start lg:items-center">
               {/* Left Column: Branding & Impact */}
               <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className="flex flex-col items-center text-center gap-lg"
+                className="flex flex-col items-center lg:items-start text-center lg:text-left gap-lg w-full lg:w-1/2"
               >
                 <img
                   src="/logos/Mission_Green_Earth_logo-02.png"
                   alt="Mission Green Earth"
-                  className="w-full max-w-[400px] h-auto object-contain"
+                  className="w-full max-w-[300px] md:max-w-[400px] h-auto object-contain"
                 />
-                <div className="flex flex-col gap-md mb-10">
-                  <h2 className="font-display text-h1 uppercase text-primary tracking-tighter leading-tight">
+                <div className="flex flex-col gap-md">
+                  <h2 className="font-display text-4xl md:text-h1 uppercase text-primary tracking-tighter leading-tight">
                     Partner with the <span className="text-secondary">Pioneers</span> of Sustainability
                   </h2>
-                  <p className="text-body-lg text-on-surface-variant max-w-md mx-auto">
+                  <p className="text-lg md:text-body-lg text-on-surface-variant max-w-md mx-auto lg:mx-0">
                     Whether you're looking to offset your footprint or monetize your green initiatives, our experts are here to guide you every step of the way.
                   </p>
                 </div>
               </motion.div>
 
               {/* Right Column: Form */}
-              <div className="flex flex-col gap-md">
+              <div className="flex flex-col gap-md w-full lg:w-1/2">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -471,9 +472,9 @@ const App = () => {
 
       <footer className="bg-tertiary dark:bg-primary w-full border-t border-white/5">
         <div className="flex flex-col md:flex-row justify-between items-center w-full px-gutter py-xl gap-xl max-w-container-max mx-auto">
-          <div className="font-display text-h2 text-on-tertiary dark:text-primary-fixed uppercase tracking-tighter">MissionGreenEarth</div>
+          <div className="font-display text-h2 text-on-tertiary dark:text-primary-fixed uppercase tracking-tighter">Mission Green Earth</div>
 
-          <div className="flex gap-md items-center">
+          <div className="flex flex-wrap justify-center gap-md items-center">
             <a href="https://instagram.com/mstblockchain" target="_blank" rel="noopener noreferrer" className="text-on-tertiary/60 hover:text-secondary-fixed transition-colors duration-300" title="Instagram">
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" /></svg>
             </a>
@@ -495,7 +496,7 @@ const App = () => {
           </div>
 
           <div className="font-label-sm text-label-sm uppercase tracking-widest text-tertiary-fixed-dim opacity-60 text-center md:text-right">
-            © 2024 MissionGreenEarth.
+            © Mission Green Earth.
           </div>
         </div>
       </footer>
