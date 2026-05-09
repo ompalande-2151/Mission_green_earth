@@ -235,19 +235,19 @@ const App = () => {
 
       <main className="story-scroll-container">
         <section className="flow-section bg-[#9AD872] px-6 md:px-gutter">
-          <div className="max-w-container-max w-full grid grid-cols-1 md:grid-cols-2 gap-xl items-center pt-20 md:pt-0">
-            <div className="flex flex-col gap-md text-center md:text-left items-center md:items-start z-10 w-full">
-              <span className="font-label-sm text-[10px] md:text-label-sm uppercase tracking-[0.3em] text-primary/80 font-bold">
+          <div className="max-w-container-max w-full grid grid-cols-1 md:grid-cols-2 gap-xl items-center pt-32 pb-10 md:py-0">
+            <div className="flex flex-col gap-md text-left z-10 w-full max-w-[340px] sm:max-w-[400px] md:max-w-none mx-auto md:mx-0">
+              <span className="font-label-sm text-[10px] text-center md:text-left md:text-label-sm uppercase tracking-[0.3em] text-primary/80 font-bold block">
                 The sustainability renaissance
               </span>
               <h1
                 ref={headlineRef}
-                className="font-display text-[28px] sm:text-4xl md:text-display uppercase text-primary tracking-tighter leading-[1.1] md:leading-[0.9] h-[100px] sm:h-[120px] md:h-[240px] mb-2 md:mb-6 flex items-center md:items-start justify-center md:justify-start"
+                className="font-display text-[28px] sm:text-4xl md:text-display uppercase text-primary text-center md:text-left tracking-tighter leading-[1.1] md:leading-[0.9] h-[120px] sm:h-[140px] md:h-[180px] block w-full"
               >
               </h1>
               <p
                 ref={subtextRef}
-                className="font-body-lg text-sm md:text-body-lg text-primary/80 max-w-md font-medium py-2 md:py-0"
+                className="font-body-lg text-center md:text-left text-sm md:text-body-lg text-primary/80 max-w-md font-medium px-2 md:px-0 h-[60px] md:h-[80px] block w-full"
               >
               </p>
             </div>
