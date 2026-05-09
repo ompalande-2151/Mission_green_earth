@@ -472,7 +472,7 @@ const App = () => {
 
       <footer className="bg-tertiary dark:bg-primary w-full border-t border-white/5">
         <div className="flex flex-col md:flex-row justify-between items-center w-full px-gutter py-xl gap-xl max-w-container-max mx-auto">
-          <div className="font-display text-h2 text-on-tertiary dark:text-primary-fixed uppercase tracking-tighter">Mission Green Earth</div>
+          <div className="font-display text-h2 text-on-tertiary text-center md:text-left dark:text-primary-fixed uppercase tracking-tighter">Mission Green Earth</div>
 
           <div className="flex flex-wrap justify-center gap-md items-center">
             <a href="https://instagram.com/mstblockchain" target="_blank" rel="noopener noreferrer" className="text-on-tertiary/60 hover:text-secondary-fixed transition-colors duration-300" title="Instagram">
@@ -496,7 +496,7 @@ const App = () => {
           </div>
 
           <div className="font-label-sm text-label-sm uppercase tracking-widest text-tertiary-fixed-dim opacity-60 text-center md:text-right">
-            © Mission Green Earth.
+            ©2026 Mission Green Earth.
           </div>
         </div>
       </footer>
