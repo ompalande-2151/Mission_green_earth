@@ -208,7 +208,7 @@ const App = () => {
           {/* Mobile Menu Toggle */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden text-white p-2"
+            className="md:hidden text-white p-5"
           >
             <span className="material-symbols-outlined">{isMenuOpen ? 'close' : 'menu'}</span>
           </button>
@@ -247,7 +247,7 @@ const App = () => {
               </h1>
               <p
                 ref={subtextRef}
-                className="font-body-lg text-sm md:text-body-lg text-primary/80 max-w-md font-medium"
+                className="font-body-lg text-sm md:text-body-lg text-primary/80 max-w-md font-medium py-2 md:py-0"
               >
               </p>
             </div>
