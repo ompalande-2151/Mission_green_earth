@@ -1,0 +1,8 @@
+node_modules/
+venv/
+env/
+
+# Ignore build/output directories
+dist/
+build/
+bin/
